@@ -1,0 +1,99 @@
+* {
+    transition: 75ms linear all;
+}
+
+body {
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.todoCont {
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.formCont {
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.formCont  input {
+    box-sizing: border-box;
+    font-size: 17px;
+    width: 100%;
+    margin: 5px auto;
+    padding: 10px 15px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.formCont input[type="submit"] {
+    background-color: rgb(0, 121, 0);
+    color: white;
+    font-weight: bold;
+}
+
+.formCont input[type="text"]:focus {
+    box-shadow: 0px 0px 15px rgb(93, 150, 255) inset;
+}
+
+.formCont input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(0, 85, 0);
+    box-shadow: 0px 0px 15px rgb(0, 120, 0) inset;
+}
+
+.remaining, .done, .fail {
+    margin-bottom: 2px;
+}
+
+.remaining { 
+    background-color: rgb(255, 240, 106);
+    padding: 10px 20px;
+}
+
+.done {
+    background-color: rgb(132, 255, 75);
+    padding: 10px 20px;
+}
+
+.fail {
+    background-color: rgb(255, 113, 95);
+    padding: 10px 20px;
+}
+
+.error { 
+    color: red;
+}
+
+.noTodo {
+    color: rgb(31, 31, 31);
+}
+
+.btn {
+    padding: 7px 15px;
+    font-size: 16px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(77, 18, 18);
+}
+
+.failButton {
+    background-color: orange;
+}
+
+.doneButton {
+    background-color: green;
+}
+.deleteButton {
+    background-color: red;
+}
