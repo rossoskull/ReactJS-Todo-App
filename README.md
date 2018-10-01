@@ -1,6 +1,6 @@
 ## A simple Todo app in ReactJS
 A simple todo list app built in HTML, CSS and JavaScript.
-This makes it easy to keep your entire week's work organized. Just type in simple tasks on the day of the week that task needs done, and that's it.
+This app makes it easy for you to keep your entire week's work organized. Just type in simple tasks with the day of the week on which that task needs to be done, and that's it.
 
 ### To install dependencies
 ``` bash
